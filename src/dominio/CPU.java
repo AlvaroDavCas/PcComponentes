@@ -7,6 +7,7 @@ public class CPU {
     private String memCache;
     private String generacion;
     private String nucleo;
+    private String Arquitectura;
 
     public String getVelocidad() {
         return velocidad;
@@ -46,5 +47,13 @@ public class CPU {
 
     public void setNucleo(String nucleo) {
         this.nucleo = nucleo;
+    }
+
+    public String getArquitectura() {
+        return Arquitectura;
+    }
+
+    public void setArquitectura(String arquitectura) {
+        Arquitectura = arquitectura;
     }
 }
