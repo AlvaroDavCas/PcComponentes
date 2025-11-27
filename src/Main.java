@@ -80,12 +80,53 @@ public class Main {
 
 
         //Visualiza los valores
+        System.out.println("CPU \n");
         System.out.println(cpu.getType());
         System.out.println(cpu.getGeneracion());
         System.out.println(cpu.getNucleo());
         System.out.println(cpu.getMemCache());
         System.out.println(cpu.getVelocidad());
 
+        System.out.println("\n RAM: \n");
+        System.out.println(ram.getType());
+        System.out.println(ram.getCapacidad());
+        System.out.println(ram.getVelocidad());
+        System.out.println(ram.getCAS());
+
+        System.out.println("\n Motherboard: \n");
+        System.out.println(motherboard.getSocket());
+        System.out.println(motherboard.getSlotsExpansion());
+        System.out.println(motherboard.getMemoriaMaxima());
+        System.out.println(motherboard.getTamanyo());
+
+        System.out.println("\n Caja: \n");
+        System.out.println(caja.getDimensiones());
+        System.out.println(caja.getCompatibilidadSuperior());
+        System.out.println(caja.getConectividadCompleta());
+
+        System.out.println("\n Refrigeracion: \n");
+        System.out.println(refrigeracion.getTamanyo());
+        System.out.println(refrigeracion.getCompactible());
+        System.out.println(refrigeracion.getVentiladores());
+
+        System.out.println("\n Fuente de alimentacion \n");
+        System.out.println(fuenteAlimentacion.getPotencia());
+        System.out.println(fuenteAlimentacion.getConectividad());
+        System.out.println(fuenteAlimentacion.getDimensiones());
+
+        System.out.println("\n Tarjeta Grafica: \n");
+        System.out.println(tarjetaGrafica.getTipo());
+        System.out.println(tarjetaGrafica.getDimensiones());
+
+        System.out.println("\n Disco Duro: \n");
+        System.out.println(discoDuro.getTipo());
+        System.out.println(discoDuro.getCapacidad());
+        System.out.println(discoDuro.getVelocidadEscritura());
+        System.out.println(discoDuro.getVelocidadLectura());
+
+        System.out.println("\n Tarjeta de sonido: \n");
+        System.out.println(tarjetaSonido.getProcesador());
+        System.out.println(tarjetaSonido.getDNR());
 
     }
 }
