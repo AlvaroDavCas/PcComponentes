@@ -2,7 +2,7 @@ import dominio.*;
 
 public class Main {
     public static void main(String[] args) {
-//CPU
+        //CPU
         CPU cpu = new CPU();
 
         cpu.setType("AMD");
